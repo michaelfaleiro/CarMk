@@ -4,11 +4,11 @@ namespace CarMk.Core.Modules.Registration.Entities;
 
 public class Vehicle : BaseEntitiy
 {
-    public Vehicle(string model, string make, List<string> years)
+    public Vehicle(string model, string make)
     {
         Model = model;
         Make = make;
-        Years = years;
+        Years = [];
     }
 
     public string Model { get; private set; }

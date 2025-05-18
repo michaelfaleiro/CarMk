@@ -12,9 +12,13 @@ public class RegisterVehicleUseCase(IVehicleRepository repository)
     {
         var vehicle = new Vehicle(
             request.Model,
-            request.Make,
-            request.Years
+            request.Make
         );
+        
+        foreach (var year in request.Years)
+        {
+            vehicle.AddYear(year);
+        }
         
         var result = await repository.Create(vehicle);
 
