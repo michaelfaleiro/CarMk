@@ -1,0 +1,11 @@
+/Users/michaelfaleiro/Projetos/Net/CarMK/src/CarMk.Exceptions/bin/Debug/net9.0/CarMk.Exceptions.deps.json
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Exceptions/bin/Debug/net9.0/CarMk.Exceptions.dll
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Exceptions/bin/Debug/net9.0/CarMk.Exceptions.pdb
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Exceptions/obj/Debug/net9.0/CarMk.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Exceptions/obj/Debug/net9.0/CarMk.Exceptions.AssemblyInfoInputs.cache
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Exceptions/obj/Debug/net9.0/CarMk.Exceptions.AssemblyInfo.cs
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Exceptions/obj/Debug/net9.0/CarMk.Exceptions.csproj.CoreCompileInputs.cache
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Exceptions/obj/Debug/net9.0/CarMk.Exceptions.dll
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Exceptions/obj/Debug/net9.0/refint/CarMk.Exceptions.dll
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Exceptions/obj/Debug/net9.0/CarMk.Exceptions.pdb
+/Users/michaelfaleiro/Projetos/Net/CarMK/src/CarMk.Exceptions/obj/Debug/net9.0/ref/CarMk.Exceptions.dll

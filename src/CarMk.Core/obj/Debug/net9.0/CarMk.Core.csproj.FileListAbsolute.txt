@@ -1,0 +1,12 @@
+/Users/michaelfaleiro/Projetos/Net/CarMK/src/CarMk.Core/bin/Debug/net9.0/CarMk.Core.deps.json
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Core/bin/Debug/net9.0/CarMk.Core.dll
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Core/bin/Debug/net9.0/CarMk.Core.pdb
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Core/obj/Debug/net9.0/CarMk.Core.csproj.AssemblyReference.cache
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Core/obj/Debug/net9.0/CarMk.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Core/obj/Debug/net9.0/CarMk.Core.AssemblyInfoInputs.cache
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Core/obj/Debug/net9.0/CarMk.Core.AssemblyInfo.cs
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Core/obj/Debug/net9.0/CarMk.Core.csproj.CoreCompileInputs.cache
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Core/obj/Debug/net9.0/CarMk.Core.dll
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Core/obj/Debug/net9.0/refint/CarMk.Core.dll
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Core/obj/Debug/net9.0/CarMk.Core.pdb
+/Users/michaelfaleiro/Projetos/Net/CarMK/src/CarMk.Core/obj/Debug/net9.0/ref/CarMk.Core.dll

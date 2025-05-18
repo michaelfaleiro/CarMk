@@ -1,0 +1,11 @@
+/Users/michaelfaleiro/Projetos/Net/CarMK/src/CarMk.Communication/bin/Debug/net9.0/CarMk.Communication.deps.json
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Communication/bin/Debug/net9.0/CarMk.Communication.dll
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Communication/bin/Debug/net9.0/CarMk.Communication.pdb
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Communication/obj/Debug/net9.0/CarMk.Communication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Communication/obj/Debug/net9.0/CarMk.Communication.AssemblyInfoInputs.cache
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Communication/obj/Debug/net9.0/CarMk.Communication.AssemblyInfo.cs
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Communication/obj/Debug/net9.0/CarMk.Communication.csproj.CoreCompileInputs.cache
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Communication/obj/Debug/net9.0/CarMk.Communication.dll
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Communication/obj/Debug/net9.0/refint/CarMk.Communication.dll
+/Users/michaelfaleiro/Projetos/Net/CarMk/src/CarMk.Communication/obj/Debug/net9.0/CarMk.Communication.pdb
+/Users/michaelfaleiro/Projetos/Net/CarMK/src/CarMk.Communication/obj/Debug/net9.0/ref/CarMk.Communication.dll
