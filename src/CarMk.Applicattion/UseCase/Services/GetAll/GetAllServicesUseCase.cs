@@ -8,12 +8,11 @@ public class GetAllServicesUseCase(IServiceRepository serviceRepository)
 {
     public async Task<PagedResponse<ServiceResponseJson>> Execute(int pageNumber, int pageSize)
     {
-        var services = await serviceRepository.GetAll(pageNumber, pageSize)
-                       ?? throw new Exception("No services found");
+        var result = await serviceRepository.GetAll(pageNumber, pageSize);
 
-        var result = new PagedResponse<ServiceResponseJson>
+        return new PagedResponse<ServiceResponseJson>
         {
-            Data = services.Data.Select(
+            Data = result.Data.Select(
                 service => new ServiceResponseJson(
                     service.Id,
                     service.Description,
@@ -25,11 +24,9 @@ public class GetAllServicesUseCase(IServiceRepository serviceRepository)
             ).ToList(),
             PageNumber = pageNumber,
             PageSize = pageSize,
-            TotalCount = services.TotalCount
+            TotalCount = result.TotalCount
             
         };
-        
-        return result;
     }
    
 }

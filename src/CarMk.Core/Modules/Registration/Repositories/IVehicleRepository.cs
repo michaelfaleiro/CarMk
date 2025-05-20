@@ -5,5 +5,4 @@ namespace CarMk.Core.Modules.Registration.Repositories;
 
 public interface IVehicleRepository : IRepositoryBase<Vehicle>
 {
-    
 }

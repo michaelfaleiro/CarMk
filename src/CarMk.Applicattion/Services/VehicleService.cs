@@ -1,9 +1,10 @@
+using CarMk.Applicattion.UseCase.Vehicles.AddServiceVehicle;
 using CarMk.Applicattion.UseCase.Vehicles.GetAll;
 using CarMk.Applicattion.UseCase.Vehicles.GetById;
+using CarMk.Applicattion.UseCase.Vehicles.GetVehicleServicesById;
 using CarMk.Applicattion.UseCase.Vehicles.Register;
 using CarMk.Core.Modules.Registration.Repositories;
 using CarMk.Infra.Repositories;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CarMk.Applicattion.Services;
@@ -16,8 +17,10 @@ public static class VehicleService
         services.AddSingleton<RegisterVehicleUseCase>();
         services.AddSingleton<GetAllVehiclesUseCase>();
         services.AddSingleton<GetVehicleByIdUseCase>();
+        services.AddSingleton<AddServiceVehicleUseCase>();
+        services.AddSingleton<GetVehicleServicesByIdUseCase>();
 
         return services;
     }
-    
+
 }

@@ -11,17 +11,18 @@ public class RegisterServiceUseCase(IServiceRepository serviceRepository)
     public async Task<Response<ServiceResponseJson>> Execute(RegisterServiceRequest request)
     {
         var service = new Service(request.Description, request.ServiceGroup);
-        await serviceRepository.Create(service);
+        
+        var result = await serviceRepository.Create(service);
         
         return new Response<ServiceResponseJson>
         {
             Data = new ServiceResponseJson(
-                service.Id,
-                service.Description,
-                service.ServiceGroup,
-                service.Active,
-                service.CreatedAt,
-                service.UpdatedAt
+                result.Id,
+                result.Description,
+                result.ServiceGroup,
+                result.Active,
+                result.CreatedAt,
+                result.UpdatedAt
             )
         };
     }

@@ -4,11 +4,5 @@ using CarMk.Infra.Data;
 
 namespace CarMk.Infra.Repositories;
 
-public class ServiceRepository : MongoRepositoryBase<Service>, IServiceRepository
-{
-    public ServiceRepository(MongoDbContext context) 
-        : base(context.GetDatabase(), "Services")
-    {
-    }
-
-}
+public class ServiceRepository(MongoDbContext context)
+    : MongoRepositoryBase<Service>(context.GetDatabase(), "Services"), IServiceRepository;

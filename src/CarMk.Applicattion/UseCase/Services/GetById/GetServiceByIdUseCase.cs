@@ -8,21 +8,19 @@ public class GetServiceByIdUseCase(IServiceRepository serviceRepository)
 {
     public async Task<Response<ServiceResponseJson>> Execute(string id)
     {
-        var service = await serviceRepository.GetById(id)
+        var result = await serviceRepository.GetById(id)
                       ?? throw new Exception("Service not found");
-
-        var response = new Response<ServiceResponseJson>
+        
+        return new Response<ServiceResponseJson>
         {
             Data = new ServiceResponseJson(
-                service.Id,
-                service.Description,
-                service.ServiceGroup,
-                service.Active,
-                service.CreatedAt,
-                service.UpdatedAt
+                result.Id,
+                result.Description,
+                result.ServiceGroup,
+                result.Active,
+                result.CreatedAt,
+                result.UpdatedAt
             )
         };
-
-        return response;
     }
 }

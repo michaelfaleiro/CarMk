@@ -8,13 +8,11 @@ public class GetAllVehiclesUseCase(IVehicleRepository repository)
 {
     public async Task<PagedResponse<VehicleResponseJson>> Execute(int pageNumber, int pageSize)
     {
-        var vehicles = await repository.GetAll(pageNumber, pageSize)
-            ?? throw new Exception("No vehicles found");
+        var result = await repository.GetAll(pageNumber, pageSize);
 
-        var result = new PagedResponse<VehicleResponseJson>
+        return new PagedResponse<VehicleResponseJson>
         {
-            Data = vehicles.Data.Select(
-                vehicle => new VehicleResponseJson(
+            Data = result.Data.Select(vehicle => new VehicleResponseJson(
                     vehicle.Id,
                     vehicle.Model,
                     vehicle.Make,
@@ -25,8 +23,7 @@ public class GetAllVehiclesUseCase(IVehicleRepository repository)
             ).ToList(),
             PageNumber = pageNumber,
             PageSize = pageSize,
-            TotalCount = vehicles.TotalCount
+            TotalCount = result.TotalCount
         };
-        return result;
     }
 }

@@ -4,12 +4,5 @@ using CarMk.Infra.Data;
 
 namespace CarMk.Infra.Repositories;
 
-public class VehicleRepository : MongoRepositoryBase<Vehicle>, IVehicleRepository
-{
-    public VehicleRepository(MongoDbContext database)
-        : base(database.GetDatabase(), "Vehicles")
-    {
-        
-    }
-    
-}
+public class VehicleRepository(MongoDbContext context)
+    : MongoRepositoryBase<Vehicle>(context.GetDatabase(), "Vehicles"), IVehicleRepository;

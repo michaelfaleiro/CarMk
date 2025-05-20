@@ -16,7 +16,7 @@ public class Service : BaseEntitiy
     public string ServiceGroup { get; private set; }
     public bool Active { get; private set; }
 
-    public void UpdateService(string description, string serviceGroup)
+    public void Update(string description, string serviceGroup)
     {
         Description = description;
         ServiceGroup = serviceGroup;
